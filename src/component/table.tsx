@@ -1,7 +1,7 @@
 /* eslint-disable array-callback-return */
 import * as React from 'react';
 import '../app/app.css'
-import { Todo } from '../types/types';
+import { Todo } from '../types';
 import { RootState } from '../app/rootReducer';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteUser } from '../pages/signUpPage/createSlice/userSlice';

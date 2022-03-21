@@ -7,7 +7,7 @@ import Table from '../../component/table';
 import Radio from '../../component/radioButton';
 import FormButton from '../../component/formButton';
 import { options, todayDate, headers } from '../../utils/constant';
-import { Todo } from '../../types/types';
+import { Todo } from '../../types/index';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../../app/rootReducer';
 import {
